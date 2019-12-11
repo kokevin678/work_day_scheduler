@@ -29,7 +29,7 @@ The planner is divided into 3 colomn. The first colomn display hour of the day. 
 
 ## Deployed Link
 
-* [See Live Site](#)
+* [See Live Site](https://kokevin678.github.io/work_day_scheduler/)
 
 
 ## Authors
