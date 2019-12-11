@@ -17,6 +17,9 @@ row.append(col3);
 $(".container").append(row);
 
 
+console.log(moment().format('MMMM Do YYYY, hh:mm:ss'));
+$("#currentDay").append(moment().format('MMMM Do YYYY, hh:mm:ss'));
+
 //add more rows
 //get local storage
 //use moment.js to set time
