@@ -4,7 +4,7 @@ for (var i = 9; i < 18; i++){
 //add row and col to container
 var row = $("<div class='row'>");
 // var col1 = $("<div><p class='hour'></p>");
-var col1 = $("<div class='col-sm-2'><p class='hour'></p>");
+var col1 = $("<div class='col-sm-2'><p class='hour'>" + (i) + "00" + "</p>");
 
 // var col2 = $("<div><textarea class='description'></textarea>");
 var col2 = $("<div class='col-sm-8'><textarea class='description'></textarea>");
