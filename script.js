@@ -1,3 +1,6 @@
+for (var i = 9; i < 18; i++){
+
+
 //add row and col to container
 var row = $("<div class='row'>");
 // var col1 = $("<div><p class='hour'></p>");
@@ -16,13 +19,17 @@ row.append(col3);
 
 $(".container").append(row);
 
+}
 
+//use moment.js to set time
 console.log(moment().format('MMMM Do YYYY, hh:mm:ss'));
-$("#currentDay").append(moment().format('MMMM Do YYYY, hh:mm:ss'));
+$("#currentDay").append(moment().format('MMMM Do YYYY, hh:mm:ss')); 
 
 //add more rows
 //get local storage
-//use moment.js to set time
-//
+function getLocalStorage(key) {
+    var value = localStorage.getItem(key);
+}
+
 
 
