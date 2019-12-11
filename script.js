@@ -1,3 +1,4 @@
+//add more rows
 for (var i = 9; i < 18; i++){
 
 
@@ -25,11 +26,17 @@ $(".container").append(row);
 console.log(moment().format('MMMM Do YYYY, hh:mm:ss'));
 $("#currentDay").append(moment().format('MMMM Do YYYY, hh:mm:ss')); 
 
-//add more rows
+
 //get local storage
 function getLocalStorage(key) {
-    var value = localStorage.getItem(key);
+
 }
+
+//save button to local storage
+var saveBtn = $(".saveBtn");
+saveBtn.on("click", function(){
+
+})
 
 
 
